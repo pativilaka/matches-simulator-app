@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mymatchessimulator">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,7 @@
         android:theme="@style/Theme.MyMatchesSimulator">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +23,11 @@
         </activity>
 
         <activity
-            android:name=".DetailActivity"
-            android:theme="@style/Theme.MyMatchesSimulator.NoActionBar"
-            android:exported="true">
+            android:name=".ui.DetailActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/Theme.MyMatchesSimulator.NoActionBar">
+
         </activity>
 
     </application>

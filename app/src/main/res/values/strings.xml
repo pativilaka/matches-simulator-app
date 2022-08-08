@@ -5,4 +5,6 @@
     <string name="cd_versus" translatable="false">X</string>
     <string name="cd_away_team_iv">Away Team image.</string>
     <string name="cd_home_team">Stars</string>
+
+    <string name="error_api">Unexpected error.</string>
 </resources>
