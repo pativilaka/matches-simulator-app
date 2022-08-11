@@ -12,4 +12,7 @@ Este repositório foi organizado em algumas branches que representam as implemen
 
 
 3. Java e Kotlin Juntos!? Construindo Apps Android
-   - release/java-e-kotlin-juntos-construindo-apps-android](https://github.com/pativilaka/matches-simulator-app/tree/release/release/java-e-kotlin-juntos-construindo-apps-android)
+   - [release/java-e-kotlin-juntos-construindo-apps-android](https://github.com/pativilaka/matches-simulator-app/tree/release/release/java-e-kotlin-juntos-construindo-apps-android)
+
+4. Explorando o Firebase Para Apps Android Resilientes
+   - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/pativilaka/matches-simulator-app/tree/release/explorando-o-firebase-para-apps-android-resilientes)
